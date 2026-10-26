@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration and credentials
+.env
+.login_token
+users.json
+
+# Application state and generated data
+.dashboard_opened
+data/
+models/
+reports/
+drafts/
+zabbix_data_live.csv
+*.log
+
+# Build and packaging output
+build/
+build*/
+dist/
+dist*/
+*.spec.bak
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
